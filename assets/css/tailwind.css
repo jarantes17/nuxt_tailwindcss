@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Montserrat;
+  src: url('~@/assets/fonts/Montserrat-Regular.ttf');
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('~@/assets/fonts/Montserrat-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('~@/assets/fonts/Montserrat-Bold.ttf');
+  font-weight: 700;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Oxygen;
+  src: url('~@/assets/fonts/Oxygen-Light.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Oxygen;
+  src: url('~@/assets/fonts/Oxygen-Regular.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Oxygen;
+  src: url('~@/assets/fonts/Oxygen-Bold.ttf');
+  font-weight: 500;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Muli;
+  src: url('~@/assets/fonts/Muli-ExtraLight.ttf');
+  font-weight: 200;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Muli;
+  src: url('~@/assets/fonts/Muli-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Muli;
+  src: url('~@/assets/fonts/Muli.ttf');
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Muli;
+  src: url('~@/assets/fonts/Muli-SemiBold.ttf');
+  font-weight: 500;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Muli;
+  src: url('~@/assets/fonts/Muli-Bold.ttf');
+  font-weight: 600;
+}
