@@ -73,3 +73,15 @@
   src: url('~@/assets/fonts/Muli-Bold.ttf');
   font-weight: 600;
 }
+
+.btn {
+  @apply py-2 px-4 font-semibold rounded-md text-white text-sm w-max;
+}
+
+.btn-block {
+  @apply w-full;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-800;
+}

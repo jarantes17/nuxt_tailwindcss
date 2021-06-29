@@ -1,5 +1,5 @@
 <template>
-  <div class="text-input">
+  <div class="input-text">
     <ValidationProvider
       v-slot="{ errors, failed }"
       tag="div"
@@ -29,7 +29,7 @@
         "
         :class="{
           'border-red-500 ring-red-500 focus:border-red-500 focus:ring-red-500':
-            failed,
+            failed
         }"
       />
       <p
@@ -48,44 +48,44 @@ import Vue from 'vue'
 import { ValidationProvider } from 'vee-validate'
 
 export default Vue.extend({
-  name: 'TextInput',
+  name: 'InputText',
   components: {
-    ValidationProvider,
+    ValidationProvider
   },
   props: {
     value: {
       type: String,
-      default: '',
+      default: ''
     },
     rules: {
       type: [String, Object],
-      default: '',
+      default: ''
     },
     name: {
       type: String,
-      default: '',
+      default: ''
     },
     vid: {
       type: String,
-      default: undefined,
+      default: undefined
     },
     type: {
       type: String,
-      default: 'text',
+      default: 'text'
     },
     label: {
       type: String,
-      default: '',
-    },
+      default: ''
+    }
   },
   data: () => ({
-    currentValue: '',
+    currentValue: ''
   }),
   watch: {
     currentValue(val) {
       this.$emit('input', val)
-    },
-  },
+    }
+  }
 })
 </script>
 

@@ -1,7 +1,5 @@
 <template>
-  <div class="auth-layout">
-    <Nuxt />
-  </div>
+  <img class="logo" src="@/assets/images/login.svg" alt="login" />
 </template>
 
 <script lang="ts">
@@ -11,7 +9,7 @@ export default Vue.extend({})
 </script>
 
 <style lang="scss" scoped>
-.auth-layout {
+.logo {
   margin: 0;
 }
 </style>

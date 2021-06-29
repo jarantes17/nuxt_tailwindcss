@@ -7,22 +7,22 @@ module.exports = {
       fontFamily: {
         heading: ['Montserrat'],
         sans: ['Oxygen'],
-        subheading: ['Muli'],
+        subheading: ['Muli']
       },
       animation: {
-        shake: 'shake 1s both',
+        shake: 'shake 1s both'
       },
       keyframes: {
         shake: {
           '10%, 100%': { transform: 'translate3d(0, 0, 0)' },
           '10%, 30%, 50%, 70%, 90%': { transform: 'translate3d(-10px, 0, 0)' },
-          '20%, 40%, 60%, 80%': { transform: 'translate3d(10px, 0, 0)' },
-        },
-      },
-    },
+          '20%, 40%, 60%, 80%': { transform: 'translate3d(10px, 0, 0)' }
+        }
+      }
+    }
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [require('@tailwindcss/forms')]
 }

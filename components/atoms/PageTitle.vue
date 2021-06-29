@@ -1,7 +1,5 @@
 <template>
-  <div class="login-page">
-    <LoginTemplate />
-  </div>
+  <div class="page-title"></div>
 </template>
 
 <script lang="ts">
@@ -11,7 +9,7 @@ export default Vue.extend({})
 </script>
 
 <style lang="scss" scoped>
-.login-page {
+.page-title {
   margin: 0;
 }
 </style>
